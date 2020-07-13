@@ -1,1 +1,0 @@
-#VDI2 test
