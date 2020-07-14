@@ -65,22 +65,19 @@ VDI 가 없는 경우 개설 신청하기
 아래와 같이 \'계정이 부여되어 있지 않습니다\' 라고 나오면 VDI 개설이
 아직 되지 않은 것입니다.
 
-![\_scroll\_external/attachments/image2019-7-10\_16-30-13-77308d60592b6132e85ddcf6364333c4e5b62fb612b230b94ab40f1556ace33a.png](media/image3.png){width="5.9006944444444445in"
-height="2.5893339895013123in"}
+![](http://18.219.180.88:9000/tidc_vid_img/image3.png)
 
 신규 개설은 [신청]{.underline} 메뉴에서 할 수 있으며, 아래와 같이 입력
 후 전자결재로 전송 을 클릭하여 주십시오.
 
 [T-net - 전자결재]{.underline} 로 가셔서 결재를 상신합니다.
 
-![\_scroll\_external/attachments/image2019-7-10\_16-29-55-6c5c124b75c3d154b5e2f640665a86758e1dd028ae61cb12de051d84a253d56e.png](media/image4.png){width="5.9006944444444445in"
-height="4.4706550743657045in"}
+![](http://18.219.180.88:9000/tidc_vid_img/image4.png)
 
 VDI가 정상적으로 개설이 되면 아래와 같은 페이지가 나타납니다.
 -------------------------------------------------------------
 
-![\_scroll\_external/attachments/image2019-7-10\_16-42-16-649643caf0f9781677c5d54bfee5d53afa3cf2b592a10f50b323aa130c976ce9.png](media/image5.png){width="5.9006944444444445in"
-height="4.159646762904637in"}
+![](http://18.219.180.88:9000/tidc_vid_img/image5.png)
 
 Citrix Receiver Profile(.ica) 파일을 다운로드하여 VDI 환경에 접속합니다.
 
@@ -90,7 +87,7 @@ VDI 환경 성능 최적화
 [바탕화면 - 마우스 오른쪽 클릭 - 개인 설정]{.underline} 을 클릭하여
 윈도우 테마를 [윈도우 고전]{.underline} 으로 변경 합니다.
 
-![\_scroll\_external/attachments/image2019-7-10\_16-13-39-0d3812feecce82b282d29c473d230628c4a4da88915e9b1a8a1a659272a7f424.png](media/image6.png){width="5.9006944444444445in"
+![](http://18.219.180.88:9000/tidc_vid_img/image6.png){width="5.9006944444444445in"
 height="3.429803149606299in"}
 
 TiDC VDI에서 Yellow Elephant 화면/로그에 hostname 기반으로 접속할 수 있도록 설정하기
@@ -105,8 +102,7 @@ hostname(bdp-dmi-dn016) 기반의 URL의 경우 DNS Resolve가 되지 않아 링
 
 **\<TiDC VDI에서 hostname 기반 URL 클릭 시 링크 깨짐 현상\>**
 
-![\_scroll\_external/attachments/image2019-9-23\_14-18-50-b2234e27f9dcdbcb1545ad6480743fba03a2c36daff6ee9f61b9426123e737fd.png](media/image7.png){width="5.9006944444444445in"
-height="4.7436953193350835in"}
+![](http://18.219.180.88:9000/tidc_vid_img/image7.png)
 
 해결 방법
 ---------
@@ -121,8 +117,7 @@ height="4.7436953193350835in"}
 
     -   저장위치: VDI 자신의 HOME 아래 Downloads에 다운로드 받습니다.
 
-![\_scroll\_external/attachments/image2019-9-23\_14-2-16-081d22304b9e7f353c4d0c0f5bd6ecb14d3e7013d7a4e949288ec63e5ae58131.png](media/image8.png){width="5.9006944444444445in"
-height="2.0648665791776026in"}
+![](http://18.219.180.88:9000/tidc_vid_img/image8.png)
 
 -   Windows Command 창에서 아래와 같이 명령어를 입력 합니다. (시작 -
     실행 - cmd 입력 후 엔터)
@@ -135,13 +130,11 @@ height="2.0648665791776026in"}
 
 **\<명령어 입력 창 화면\>**
 
-![\_scroll\_external/attachments/image2019-9-23\_14-22-53-f94af1dd120fb8b5a325952f8c19325b4a0b719d4c8de1bb3ae9a10abcd0d7d8.png](media/image9.png){width="5.9006944444444445in"
-height="1.8669750656167978in"}
+![](http://18.219.180.88:9000/tidc_vid_img/image9.png)
 
 **\<정상 연결 확인\>**
 
-![\_scroll\_external/attachments/image2019-9-23\_14-23-56-e968ce507051e85f25354f8640720abea0997327ef7b8b9a2b789d5294298f2b.png](media/image10.png){width="5.9006944444444445in"
-height="4.792148950131233in"}
+![](http://18.219.180.88:9000/tidc_vid_img/image10.png)
 
 주요 분석환경 제공 URL
 ======================
