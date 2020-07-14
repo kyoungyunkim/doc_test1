@@ -72,12 +72,12 @@ VDI 가 없는 경우 개설 신청하기
 
 [T-net - 전자결재]{.underline} 로 가셔서 결재를 상신합니다.
 
-![](http://18.219.180.88:9000/tidc_vid_img/image4.png)
+![](http://18.219.180.88:9000/tidc_vdi_img/image4.png)
 
 VDI가 정상적으로 개설이 되면 아래와 같은 페이지가 나타납니다.
 -------------------------------------------------------------
 
-![](http://18.219.180.88:9000/tidc_vid_img/image5.png)
+![](http://18.219.180.88:9000/tidc_vdi_img/image5.png)
 
 Citrix Receiver Profile(.ica) 파일을 다운로드하여 VDI 환경에 접속합니다.
 
@@ -87,8 +87,7 @@ VDI 환경 성능 최적화
 [바탕화면 - 마우스 오른쪽 클릭 - 개인 설정]{.underline} 을 클릭하여
 윈도우 테마를 [윈도우 고전]{.underline} 으로 변경 합니다.
 
-![](http://18.219.180.88:9000/tidc_vid_img/image6.png){width="5.9006944444444445in"
-height="3.429803149606299in"}
+![](http://18.219.180.88:9000/tidc_vdi_img/image6.png)
 
 TiDC VDI에서 Yellow Elephant 화면/로그에 hostname 기반으로 접속할 수 있도록 설정하기
 ====================================================================================
@@ -102,7 +101,7 @@ hostname(bdp-dmi-dn016) 기반의 URL의 경우 DNS Resolve가 되지 않아 링
 
 **\<TiDC VDI에서 hostname 기반 URL 클릭 시 링크 깨짐 현상\>**
 
-![](http://18.219.180.88:9000/tidc_vid_img/image7.png)
+![](http://18.219.180.88:9000/tidc_vdi_img/image7.png)
 
 해결 방법
 ---------
@@ -117,7 +116,7 @@ hostname(bdp-dmi-dn016) 기반의 URL의 경우 DNS Resolve가 되지 않아 링
 
     -   저장위치: VDI 자신의 HOME 아래 Downloads에 다운로드 받습니다.
 
-![](http://18.219.180.88:9000/tidc_vid_img/image8.png)
+![](http://18.219.180.88:9000/tidc_vdi_img/image8.png)
 
 -   Windows Command 창에서 아래와 같이 명령어를 입력 합니다. (시작 -
     실행 - cmd 입력 후 엔터)
@@ -130,11 +129,11 @@ hostname(bdp-dmi-dn016) 기반의 URL의 경우 DNS Resolve가 되지 않아 링
 
 **\<명령어 입력 창 화면\>**
 
-![](http://18.219.180.88:9000/tidc_vid_img/image9.png)
+![](http://18.219.180.88:9000/tidc_vdi_img/image9.png)
 
 **\<정상 연결 확인\>**
 
-![](http://18.219.180.88:9000/tidc_vid_img/image10.png)
+![](http://18.219.180.88:9000/tidc_vdi_img/image10.png)
 
 주요 분석환경 제공 URL
 ======================
