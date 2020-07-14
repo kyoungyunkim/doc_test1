@@ -1,35 +1,8 @@
-TiDC VDI 개설 신청하기(DMIG 인프라 접근)
+﻿TiDC VDI 개설 신청하기(DMIG 인프라 접근)
 
 AI/DT Engineering CoE
 
 Exported on 2020 07 13,
-
-Table of Contents {#table-of-contents .TOCHeading}
-=================
-
-1 TiDC VDI 개설 신청하기 4
-
-1.1 VDI 사이트 접속 후 MyDesk와 같은 방식으로 로그인 합니다. (FIDO 인증
-필요) 4
-
-1.2 로그인 후 보안프로그램 설치 페이지가 나타납니다. 4
-
-2 VDI 가 없는 경우 개설 신청하기 6
-
-2.1 VDI가 정상적으로 개설이 되면 아래와 같은 페이지가 나타납니다. 7
-
-2.2 VDI 환경 성능 최적화 7
-
-3 TiDC VDI에서 Yellow Elephant 화면/로그에 hostname 기반으로 접속할 수
-있도록 설정하기 8
-
-3.1 해결 방법 8
-
-4 주요 분석환경 제공 URL 11
-
-5 참고) TiDC VDI → YellowElephant Firewall Rules 12
-
-5.1 YellowElephant Host Group 12
 
 -   [TiDC VDI 개설 신청하기](#tidc-vdi-개설-신청하기)
 
@@ -55,7 +28,7 @@ Table of Contents {#table-of-contents .TOCHeading}
 
 -   [주요 분석환경 제공 URL](#주요-분석환경-제공-url)
 
--   [참고) TiDC VDI → YellowElephant Firewall
+-   [참고) TiDC VDI → YellowElephant Firewall
     Rules](#참고-tidc-vdi-yellowelephant-firewall-rules)
 
     -   [YellowElephant Host Group](#yellowelephant-host-group)
@@ -66,24 +39,23 @@ TiDC VDI 개설 신청하기
 VDI 사이트 접속 후 MyDesk와 같은 방식으로 로그인 합니다. (FIDO 인증 필요)
 -------------------------------------------------------------------------
 
--   TiDC VDI 접속 URL: <https://devdi.sktelecom.com>.
+-   TiDC VDI 접속 URL: <https://devdi.sktelecom.com>.
 
- ![\_scroll\_external/attachments/image2019-7-10\_15-34-4-e372f3f4503cb45ba8e1d0688ca5f424ee1eca78594aea48cc012b31d42fef74.png](media/image1.png){width="5.9006944444444445in"
+ ![\_scroll\_external/attachments/image2019-7-10\_15-34-4-e372f3f4503cb45ba8e1d0688ca5f424ee1eca78594aea48cc012b31d42fef74.png](media/image1.png){width="5.9006944444444445in"
 height="3.9664785651793526in"}
 
 로그인 후 보안프로그램 설치 페이지가 나타납니다.
 ------------------------------------------------
 
 Mac에서 보안 프로그램을 설치 할 경우 ***스크린 캡춰가 동작하지 않는
-문제*** 가 발생합니다.
+문제*** 가 발생합니다.
 
 다소 불편하지만, 주소 URL을 아래와 같이 변경하여 보안 프로그램 설치
 단계를 우회 합니다.
 
--   우회 주소:  <https://devdi.sktelecom.com/NON_SSO/Vdi/Main>
+-   우회 주소:  <https://devdi.sktelecom.com/NON_SSO/Vdi/Main>
 
-![\_scroll\_external/attachments/image2019-7-10\_15-36-44-0fb9cfde681f5e45a15a2c1a619247bd910f219ba118b40b9e189b5f72676b79.png](media/image2.png){width="5.9006944444444445in"
-height="4.559222440944882in"}
+![](http://18.219.180.88:9000/tidc_vid_img/image2.png)
 
 VDI Main 페이지에 접근하여 Citrix Receiver Profile(.ica) 파일을
 다운로드하여 VDI 환경에 접속합니다.
@@ -143,7 +115,7 @@ height="4.7436953193350835in"}
 -   TiDC VDI에서 아래 사이트에 접속하여 hosts.for.windows.yyyymmdd 최신
     파일을 다운로드 받습니다.
 
-    -   접속 사이트: <http://repo.sktai.io/hosts/>
+    -   접속 사이트: <http://repo.sktai.io/hosts/>
 
 -   가장 최신 버전인 hosts.for.windows.20190923 파일을 다운로드
     받습니다.
@@ -181,7 +153,7 @@ height="4.792148950131233in"}
   Hue        <http://hue.sktai.io>          계정은 별도 제공
   Zeppelin   <http://zeppelin.sktai.io>     계정은 별도 제공
 
-참고) TiDC VDI → YellowElephant Firewall Rules
+참고) TiDC VDI → YellowElephant Firewall Rules
 ==============================================
 
 TiDC VDI에서 YellowElephant로 향하는 방화벽은 아래 포트로 오픈 되어
