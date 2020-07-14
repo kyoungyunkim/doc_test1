@@ -41,8 +41,7 @@ VDI 사이트 접속 후 MyDesk와 같은 방식으로 로그인 합니다. (FID
 
 -   TiDC VDI 접속 URL: <https://devdi.sktelecom.com>.
 
- ![\_scroll\_external/attachments/image2019-7-10\_15-34-4-e372f3f4503cb45ba8e1d0688ca5f424ee1eca78594aea48cc012b31d42fef74.png](media/image1.png){width="5.9006944444444445in"
-height="3.9664785651793526in"}
+ ![](http://18.219.180.88:9000/tidc_vdi_img/image1.png)
 
 로그인 후 보안프로그램 설치 페이지가 나타납니다.
 ------------------------------------------------
