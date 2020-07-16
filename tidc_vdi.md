@@ -1,37 +1,3 @@
-﻿TiDC VDI 개설 신청하기(DMIG 인프라 접근)
-
-AI/DT Engineering CoE
-
-Exported on 2020 07 13,
-
--   [TiDC VDI 개설 신청하기](#tidc-vdi-개설-신청하기)
-
-    -   [VDI 사이트 접속 후 MyDesk와 같은 방식으로 로그인 합니다. (FIDO
-        인증
-        필요)](#vdi-사이트-접속-후-mydesk와-같은-방식으로-로그인-합니다.-fido-인증-필요)
-
-    -   [로그인 후 보안프로그램 설치 페이지가
-        나타납니다.](#로그인-후-보안프로그램-설치-페이지가-나타납니다.)
-
--   [VDI 가 없는 경우 개설 신청하기](#vdi-가-없는-경우-개설-신청하기)
-
-    -   [VDI가 정상적으로 개설이 되면 아래와 같은 페이지가
-        나타납니다.](#vdi가-정상적으로-개설이-되면-아래와-같은-페이지가-나타납니다.)
-
-    -   [VDI 환경 성능 최적화](#vdi-환경-성능-최적화)
-
--   [TiDC VDI에서 Yellow Elephant 화면/로그에 hostname 기반으로 접속할
-    수 있도록
-    설정하기](#tidc-vdi에서-yellow-elephant-화면로그에-hostname-기반으로-접속할-수-있도록-설정하기)
-
-    -   [해결 방법](#해결-방법)
-
--   [주요 분석환경 제공 URL](#주요-분석환경-제공-url)
-
--   [참고) TiDC VDI → YellowElephant Firewall
-    Rules](#참고-tidc-vdi-yellowelephant-firewall-rules)
-
-    -   [YellowElephant Host Group](#yellowelephant-host-group)
 
 TiDC VDI 개설 신청하기
 ======================
