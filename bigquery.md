@@ -49,9 +49,9 @@ BigQuery Console에 접속하는 방법입니다.
             - Legacy SQL : BigQuery 초기에 사용되던 문법입니다. Standard SQL을 사용할 것을 권장드립니다.
 
 
-BigQuery Documentation
+[BigQuery Documentation](https://cloud.google.com/bigquery/docs)  
 ------------------------------------------------
-BigQuery는 잘 정리된 문서를 제공하고 있습니다.  
+BigQuery는 잘 정리된 [문서](cloud.google.com/bigquery/docs)를 제공하고 있습니다.    
 간단히 시작할 수 있는 튜토리얼부터 상세한 기능까지 자세하게 설명되어 있습니다.  
 BigQuery를 사용하시면서 문서를 잘 활용하실 것을 추천드립니다.
 
@@ -61,13 +61,13 @@ BigQuery 주요 기능
 간략히 파악할 수 있는 주요 기능에 대한 소개입니다.
 - SQL
 
-- 파티션
+- [테이블 파티션](https://cloud.google.com/bigquery/docs/partitioned-tables)
     - 싱글 컬럼 파티션
         - BigQuery의 테이블은 단일 컬럼에 대한 파티셔닝만 가능합니다.
     - 파티션 타입
         - 파티션 컬럼의 타입은 **날짜 또는 타임스탬프**와 **정수 범위**만 지원합니다.
 
-- 클러스터링
+- [테이블 클러스터링](https://cloud.google.com/bigquery/docs/clustered-tables)
     - 클러스터링은 데이터의 정렬 순서를 결정합니다.
     - 인덱싱과 비슷하다고 보면 됩니다.
     - 여러 개의 컬럼을 클러스터링 하는 것이 가능합니다.
@@ -75,7 +75,7 @@ BigQuery 주요 기능
 - 테이블 생성 예시  
 ![create_table](bigquery_img/create_table.png)
 
-- View
+- [View](https://cloud.google.com/bigquery/docs/views-intro)
     - 뷰는 SQL 쿼로 정의하는 가상 테이블입니다. 뷰를 만들 때는 테이블을 쿼리할 때와 같은 방식으로 쿼리합니다.
 
 
